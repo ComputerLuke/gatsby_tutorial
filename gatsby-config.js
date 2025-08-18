@@ -8,5 +8,8 @@ module.exports = {
     image: `./src/images/world-wide-web.png`,
     siteUrl: `http://localhost:8000/`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
 }

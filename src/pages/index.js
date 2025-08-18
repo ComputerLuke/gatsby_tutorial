@@ -11,7 +11,7 @@ const IndexPage = () => {
 }
 
 export const Head = () => (
-  <SEO title="Gatsby Tutorial" />
+  <SEO title="Gatsby Tutorial" description="Home page" />
 )
 
 export default IndexPage
